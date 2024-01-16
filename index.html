@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Weather Application</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+   <link rel="stylesheet" href="style.css"/>
+   <script src="MyScript.js"></script>
+</head>
+<body>
+
+<div class="box">
+     <div class="search">
+     <form action="MyServlet" method="post" class="searchBtn">
+         <input type="text" placeholder="Enter city" name="city" spellcheck="false">
+         <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+     </form>
+     </div>
+     <div class="weather">
+        <input type="hidden" id="temperature" value="${temperature}">
+        <img src="images/weather-icon.png" id="weather-icon" />
+        <h1 class="temp">27°c</h1>
+        <h2 class="city">Mumbai</h2>
+        <div class="info">
+            <div class="col">
+                <img src="images/humidity.png">
+                <div>
+                    <p class="humidity">40%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="images/wind.png">
+                <div>
+                    <p class="wind">20 Km/hr</p>
+                    <p>Wind Speed</p>
+                </div> 
+            </div>
+        </div>
+     </div>
+</div>
+</body>
+</html>
