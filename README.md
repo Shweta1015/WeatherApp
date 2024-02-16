@@ -5,6 +5,8 @@ This is a Weather Application creatred using frontend(HTML,CSS) and backend(JSP,
 
 ![Screenshot (9)](https://github.com/Shweta1015/WeatherApp/assets/140094496/cede0bf5-66f6-4a35-845c-834f7469f62d)
 
+![Screenshot (11)](https://github.com/Shweta1015/WeatherApp/assets/140094496/0f007fe9-4d25-4689-8057-f54c5f6e988a)
+
 
 ## Demo
 
