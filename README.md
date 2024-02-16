@@ -1,7 +1,7 @@
 
 Live Weather Application
 
-This is a Weather Application creatred using frontend(HTML,CSS) and backend(JSP, SERVLET, JAVASCRIPT)
+This is a Weather Application creatred using frontend(HTML,CSS,,JAVASCRIPT) and backend(SERVLET, JSP)
 
 ![Screenshot (9)](https://github.com/Shweta1015/WeatherApp/assets/140094496/cede0bf5-66f6-4a35-845c-834f7469f62d)
 
